@@ -6,12 +6,14 @@ expo v34 and storybook v5
 $ yarn install
 ```
 
-## run storybook on the device
+## Run storybook on the device
 ``` console
 $ yarn run storybook
 ```
 
-## run your app on expo
+## Run your app on expo
 ``` console
 $ yarn start
 ```
+
+Note that if you switch between running the app and running storyboard, simply reloading the app by shaking the device might not load the new version.  You may need to close the app, and ask Expo to start it again.
